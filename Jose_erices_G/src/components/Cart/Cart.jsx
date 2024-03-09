@@ -14,8 +14,8 @@ const Cart = () => {
             {cart.length == 0
                 ?
                 <>
-                    <h2 className='total'>No existe una lista de Productos </h2>
-                    <Link className='irCarritoInicioCart' to={"/"}>Ir al Inicio</Link>
+                    <h2 className='total'>Aún no has seleccionado Productos. </h2>
+                    <Link className='irCarritoInicioCart' to={"/"}>Volver atras</Link>
                 </>
 
                 :

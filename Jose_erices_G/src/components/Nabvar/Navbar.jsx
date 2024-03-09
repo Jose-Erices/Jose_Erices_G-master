@@ -8,7 +8,7 @@ const Navbar = () => {
 
     <nav>
       <Link className="Logo" to={"/"}>
-        <h1>El Castillo de tu mascota</h1>
+        <h1>El Castillo de tu Mascota</h1>
       </Link>
 
       <ul>
