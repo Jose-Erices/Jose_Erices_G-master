@@ -2,7 +2,8 @@ import React, {useState,useEffect} from 'react'
 import ItemDetail from '../ItemDeteail/ItemDetail';
 import './ItemDetailContainer.css';
 import { useParams } from 'react-router-dom';
-import { getFirestore, doc,getDoc } from 'firebase/firestore';
+import { db } from '../../firebase/config';
+import {doc,getDoc } from 'firebase/firestore';
 
 
 const ItemDetailContainer = () => {
@@ -13,8 +14,7 @@ const ItemDetailContainer = () => {
 
     useEffect(()=>{
         
-      //INICIALIZAMOS LA INSTANCIA DE LA BD
-      const db = getFirestore()
+      
 
       //GENERAMOS EL LLAMADO AL DOCUMENTO DETERMINADO
       const nuevoDoc = doc(db,"Item1",id)

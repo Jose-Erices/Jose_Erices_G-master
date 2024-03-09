@@ -2,7 +2,8 @@ import {useState,useEffect} from 'react'
 import ItemList from '../ItemList/ItemList';
 import './itemList.css'
 import { useParams } from 'react-router-dom';
-import {collection, getDocs, getFirestore,query,where} from 'firebase/firestore'
+import {collection, getDocs,query,where} from 'firebase/firestore'
+import { db } from '../../firebase/config';
 
 
 
@@ -15,7 +16,7 @@ const ItemListContainer = () => {
 
     useEffect(()=>{
         
-const db = getFirestore()
+
 
 const misProd =  categoryId?
 
