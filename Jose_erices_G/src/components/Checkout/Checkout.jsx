@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 
 const Checkout = () => {
     //INFORMACIÓN DEL CONTEXT
-    const { cart, totalCarrito, cantidadCarrito, vaciarCarrito } =
+    const { cart, totalCarrito, vaciarCarrito } =
         useContext(CartContext);
 
     //DATOS DEL COMPONENT
