@@ -93,17 +93,17 @@ const Checkout = () => {
         <div>
             <Link className="Inicio" to={"/"}>
                 {" "}
-                🏠Volver al inicio
+                🏠Agregar mas productos
             </Link>
             <h3 className="total">Formulario de Compra</h3>
 
             <form onSubmit={manejadorFormulario}>
                 {/* MAPEO DE PRODUCTOS */}
                 {cart.map((producto) => (
-                    <div key={producto.producto.id}>
-                        <p>
+                    <div className="listadoCompra" key={producto.producto.id}>
+                        <p >
                             {""}
-                            {producto.producto.nombre} x {producto.cantidad}
+                            {"Llevas" + " "+producto.producto.nombre} {"="+" "+producto.cantidad + " "+"Productos"}
                         </p>
                         <hr />
                     </div>

@@ -29,3 +29,12 @@
 
 
 }
+.listadoCompra{
+    height: 51px;
+    padding: auto;
+    text-align: center;
+    width:300px;
+    border:2px solid black;
+    color:black;
+    background-color: #fba506
+}
