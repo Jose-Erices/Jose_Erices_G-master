@@ -1,0 +1,55 @@
+.total {
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.comprar {
+
+    text-decoration: none;
+    color: black;
+    background-color: rgb(240, 247, 247);
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+
+
+
+}
+
+.vaciar {
+
+    color: black;
+    background-color: rgb(240, 247, 247);
+    padding: 10.5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 20px;
+
+}
+
+.irCarritoInicioCart {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 40%;
+    padding: 30px;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    text-align: center;
+
+}
+
+.irCarritoInicioCart:hover {
+    background-color: orange;
+}

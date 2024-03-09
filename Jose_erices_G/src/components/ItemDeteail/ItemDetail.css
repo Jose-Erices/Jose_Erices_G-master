@@ -1,0 +1,45 @@
+.irCarritoInicio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black ;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    
+}
+
+.irCarritoInicio:hover{
+    background-color:orange;
+}
+
+.CartDetail{
+
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    margin: 50px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+   
+}
+.CartDetail:hover{
+    background-color: rgb(200, 191, 175);
+}
+
+.descripDetail{
+    font-size: 20px;
+    color:orangered;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.counInDetail{
+    font-size: 20px;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+

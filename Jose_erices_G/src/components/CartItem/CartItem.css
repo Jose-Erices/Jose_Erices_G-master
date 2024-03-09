@@ -1,0 +1,44 @@
+.imgItem {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.CartContainer {
+    display: inline-block;
+    width: 20%;
+    height: 25%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+.CartContainer .eliminarP {
+    margin: 20px;
+    padding: 10px;
+    border: 2px black;
+    border-radius: 10px;
+}
+
+.comprarP {
+    margin: 20px;
+    padding: 10px;
+
+
+}
+
+.comprarP:hover {
+
+    background-color: rgb(184, 181, 181)
+}
+
+.eliminarP:hover {
+
+    background-color: rgb(184, 181, 181);
+}
+
+.tituloCarItem {
+    text-align: center;
+}
